@@ -24,6 +24,4 @@ public class RestStepDefinition {
         assertThat(response.getBody().toString()).isNotEmpty();
         assertThat(response.getStatusCode()).isEqualTo(200);
     }
-
-
 }
